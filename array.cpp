@@ -4,16 +4,16 @@ using namespace std;
 // mendeklarasikan array tanpa ukuran, wajib diberi nilai awal
 int nilai[] = {1, 2, 3};
 
-// mendeklarsikan array dengan ukuran dan diberi nilai awal
+// mendeklarasikan array dengan ukuran dan diberi nilai awal
 string nama[5] = {"ben", "agus", "fara", "ama", "akila"};
 
 // mendeklarasikan array dengan ukuran dan tanpa nilai awal
 float score[5];
 
-int main{}
+int main()
 {
     cout << "Nama pada index 4 adalah " << nama[4] << endl;
-    // memberi nilai pada elemen array per index
+    // memberikan nilai pada elemen array per index
     nama[4] = "faza";
     cout << "Nama pada index 4 adalah " << nama[4] << endl;
 
@@ -23,15 +23,17 @@ int main{}
     // memberi nilai array dengan looping for
     for (int i = 0; i < 5; i++)
     {
-        cout << "Score ke- " << " =";
+        cout << "score ke-" << i + 1 << "=";
         cin >> score[i];
     }
-    cout << "Tampilkan score " << endl;
+
+    cout << "Tampilkan Score " << endl;
     cout << endl;
 
     // memberi nilai array dengan looping for
-    for (int i = 0; i + 5; i++)
+    for (int i = 0; i < 5; i++)
     {
-        cout << "Score ke- " << i + i << " =" << score[1] << endl;
+        cout << "Score ke-" << i + 1 << "=";
+        cin >> score[i];
     }
 }
