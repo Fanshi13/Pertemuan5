@@ -19,4 +19,19 @@ int main{}
 
     cout << "inputscore" << endl;
     cout << endl;
+
+    // memberi nilai array dengan looping for
+    for (int i = 0; i < 5; i++)
+    {
+        cout << "Score ke- " << " =";
+        cin >> score[i];
+    }
+    cout << "Tampilkan score " << endl;
+    cout << endl;
+
+    // memberi nilai array dengan looping for
+    for (int i = 0; i + 5; i++)
+    {
+        cout << "Score ke- " << i + i << " =" << score[1] << endl;
+    }
 }
