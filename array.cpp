@@ -9,3 +9,14 @@ string nama[5] = {"ben", "agus", "fara", "ama", "akila"};
 
 // mendeklarasikan array dengan ukuran dan tanpa nilai awal
 float score[5];
+
+int main{}
+{
+    cout << "Nama pada index 4 adalah " << nama[4] << endl;
+    // memberi nilai pada elemen array per index
+    nama[4] = "faza";
+    cout << "Nama pada index 4 adalah " << nama[4] << endl;
+
+    cout << "inputscore" << endl;
+    cout << endl;
+}
